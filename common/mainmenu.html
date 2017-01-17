@@ -1,0 +1,37 @@
+<div id="header">
+  <div id="companyLogo">
+    <img src="./assets/img/logo.png">
+  </div>
+
+  <div id="callToAction">
+    <span class="center">
+      <br>
+      Food2U - Irvine <br>
+      1600 Amphitheatre Parkway <br>
+      Mountain View, CA 94043 <br>
+    </span>
+  </div>
+
+</div>
+<div id="mainMenu" onmouseout="hide()">
+  <ul class="Links" id="mainLinks">
+    <li><a href="./index.php">Home</a></li>
+    <li>
+      <a href="" onmouseover="show('m1')">Our Restaurants</a>
+      <div id="m1" class="dropdown" onmouseover="show('m1')">
+        <a href="./in-n-out.php">In-N-Out Irvine</a>
+        <a href="./starbucks.php">Starbucks</a>
+        <a>Chipotle: COMING SOON</a>
+        <a>Chick-Fil-A: COMING SOON</a>
+      </div>
+    </li>
+    <li>
+      <a onmouseover="show('m2')" href="./contact-us.php">Contact Us</a>
+      <div id="m2" class="dropdown" onmouseover="show('m2')">
+        <a href="./about-us.php">About Us</a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<script language="javascript" type="text/javascript" src="./assets/javascript/menu.js"></script>
